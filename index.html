@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TrangBui's Birthday</title>
+    <link rel="stylesheet" href="style2.css" />
+    <meta name="description" content="There is a surprise." />
+    <meta name="keywords" content="Love, Surprise, Vietnamese" />
+    <meta name="author" content="Prashant" />
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="3 days" />
+    <meta name="language" content="Vietnamese" />
+    <meta name="web_author" content="Prashant" />
+    <meta name="reply-to" content="" />
+    <meta name="rating" content="general" />
+    <meta name="og:title" content="There is a Surprise" />
+    <meta name="og:description" content="There is a surprise." />
+    <meta name="og:image" content="https://i.ibb.co/k6xD4nM/New-Project.jpg" />
+    <meta name="og:url" content="https://prashant-valentine.netlify.app/" />
+    <meta name="og:site_name" content="There is a Surprise" />
+    <meta name="og:locale" content="en_US" />
+    <meta name="og:type" content="website" />
+    <meta name="og:author" content="Prashant" />
+    <meta name="og:reply-to" content="" />
+    <meta name="og:web_author" content="Prashant" />
+    <meta name="og:rating" content="general" />
+  </head>
+  <body>
+    <div class="flex f-aps">
+      <p>
+        Made with ❤️ by
+        <a rel="noopener" href="https://fb.com/congliv" target="_blank">Cong Vu</a>
+        </p>
+      </p>
+      </a>
+    </div>
+    <h1 class="headerText" id="wedate">Bạn có yêu mình hơm? 🥺</h1>
+    <img class="image" src="https://github.com/NikhilMarko03/resources/blob/main/happy1.gif?raw=true" alt="heyy" id="mainImg" />
+    <div class="flex" id="btns">
+      <button
+        class="button"
+        id="yes"
+        onmouseenter="happy()"
+        onmouseleave="normal()"
+        onclick="yes()"
+      >
+        Có 🥰
+      </button>
+      <button
+        class="button"
+        id="no"
+        onmouseenter="angry()"
+        onmouseleave="normal()"
+        onclick="no()"
+      >
+        Không 😭
+      </button>
+    </div>
+    <div class="absImages" id="absImg">
+      <img class="image1" src="https://github.com/NikhilMarko03/resources/blob/main/heart.gif?raw=true" alt="heyy" />
+      <img class="image1" src="https://github.com/NikhilMarko03/resources/blob/main/heart.gif?raw=true" alt="heyy" />
+      <img class="image1" src="https://github.com/NikhilMarko03/resources/blob/main/heart.gif?raw=true" alt="heyy" />
+      <img class="image1" src="https://github.com/NikhilMarko03/resources/blob/main/heart.gif?raw=true" alt="heyy" />
+      <img class="image1" src="https://github.com/NikhilMarko03/resources/blob/main/heart.gif?raw=true" alt="heyy" />
+      <img class="image1" src="https://github.com/NikhilMarko03/resources/blob/main/heart.gif?raw=true" alt="heyy" />
+      <img class="image1" src="https://github.com/NikhilMarko03/resources/blob/main/heart.gif?raw=true" alt="heyy" />
+      <img class="image1" src="https://github.com/NikhilMarko03/resources/blob/main/heart.gif?raw=true" alt="heyy" />
+      <img class="image1" src="https://github.com/NikhilMarko03/resources/blob/main/heart.gif?raw=true" alt="heyy" />
+      <img class="image1" src="https://github.com/NikhilMarko03/resources/blob/main/heart.gif?raw=true" alt="heyy" />
+
+      <!-- <img class="image2" src="./resources/sad.gif" alt="heyy" /> -->
+    </div>
+
+    <div class="model" id="model2">
+      <audio id="happyMusic" style="opacity: 0" controls loop>
+        <source src="Birthday/hbd.mp3" type="audio/mp3" />
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <div id="model" class="model">
+      <audio id="sadMusic" style="opacity: 0" controls loop autoplay>
+        <source src="tom.mp3" type="audio/mp3" />
+        Your browser does not support the audio element.
+      </audio>
+      <div class="model-content">
+        <p class="modelText" id="modelText">Please</p>
+        <img
+          class="modelImg"
+          id="modelImg"
+          src="https://media1.tenor.com/images/9413ffc5a11722a3cc456a88810750bd/tenor.gif?itemid=14193216"
+          alt="heyy"
+        />
+        <div class="flex">
+          <button
+            class="button"
+            id="yes"
+            onmouseenter="happy()"
+            onmouseleave="normal()"
+            onclick="yes()"
+          >
+            Coá 🥰
+          </button>
+          <button
+            class="button"
+            id="no"
+            onmouseenter="angry()"
+            onmouseleave="normal()"
+            onclick="no()"
+          >
+            Hom 😭
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="successPopup" class="success-popup">
+      <div class="success-popup-content">
+        <div class="success-hearts">💕 ❤️ 💕</div>
+        <h2 class="success-title">Yay! 🎉</h2>
+        <p class="success-message">Vì mình cũm yêu bạn nên mình sẽ tặng bạn một phần quà he 💖</p>
+        <img
+          class="success-gif"
+          src="https://github.com/NikhilMarko03/resources/blob/main/happy3.gif?raw=true"
+          alt="happy"
+        />
+        <p class="success-submessage">Chờ mình một chíu... 🎂✨</p>
+        <div class="success-loader"></div>
+      </div>
+    </div>
+    <audio id="backgroundMusic" autoplay loop>
+      <source src="tom.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+  </body>
+  <script src="main2.js"></script>
+  <script>
+    // Đảm bảo phát nhạc ngay khi trang tải
+    document.addEventListener("DOMContentLoaded", function() {
+      const backgroundMusic = document.getElementById("backgroundMusic");
+      if (backgroundMusic) {
+        backgroundMusic.play().catch(function(error) {
+          // Nếu autoplay bị chặn, thử phát lại khi người dùng tương tác
+          console.log("Autoplay bị chặn, cần tương tác của người dùng");
+        });
+      }
+    });
+    
+    // Thử phát lại khi người dùng click vào trang (nếu autoplay bị chặn)
+    document.addEventListener("click", function() {
+      const backgroundMusic = document.getElementById("backgroundMusic");
+      if (backgroundMusic && backgroundMusic.paused) {
+        backgroundMusic.play();
+      }
+    }, { once: true });
+  </script>
+</html>
