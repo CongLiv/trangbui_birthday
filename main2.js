@@ -70,9 +70,9 @@ document.addEventListener("DOMContentLoaded", function () {
   
   function no() {
     counter++;
-    let sadMusic = document.getElementById("sadMusic");
-    let happyMusic = document.getElementById("happyMusic");
-    happyMusic.pause();
+    // let sadMusic = document.getElementById("sadMusic");
+    // let happyMusic = document.getElementById("happyMusic");
+    // happyMusic.pause();
     let model = document.getElementById("model");
     model.style.display = "none";
     setTimeout(() => {
@@ -89,10 +89,10 @@ document.addEventListener("DOMContentLoaded", function () {
     if (counter >= 3) {
         let model = document.getElementById("model2");
         let model2 = document.getElementById("model");
-        let sadMusic = document.getElementById("sadMusic");
-        sadMusic.pause();
+        // let sadMusic = document.getElementById("sadMusic");
+        // sadMusic.pause();
         model2.style.display = "none";
-        let happyMusic = document.getElementById("happyMusic");
+        // let happyMusic = document.getElementById("happyMusic");
         model.style.display = "none";
         setTimeout(() => {
             model.style.display = "flex";
